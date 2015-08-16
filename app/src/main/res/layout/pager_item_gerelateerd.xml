@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_bottom_gray"
+        android:id="@+id/relativeLayout3"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView34"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/pic_voeding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groenten en Kruiden  Plantenvoeding"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/imageView34"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textIsSelectable="false"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dit product vindt u in rij A"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView6"
+        android:textColor="@color/dark_green"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bottom_gray"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView34"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/pic_potgrond" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substral Potgrond voor kamerplanten"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/imageView34"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textIsSelectable="false"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dit product vindt u in rij A"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView6"
+            android:textColor="@color/dark_green"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:layout_marginBottom="10dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
